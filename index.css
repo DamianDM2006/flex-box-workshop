@@ -1,15 +1,19 @@
 body {
-  background: rgb(248, 248, 154);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255, 255, 187);
 }
 
 header {
   display: flex;
-  margin: 1em;
-  padding: 1em;
+  width: 80vw;
+  margin: 1rem;
+  padding: 1rem;
   border-style: solid;
   border-width: 3px;
   border-color: black;
-  background-color: rgb(77, 251, 77);
+  background-color: rgb(151, 255, 151);
   align-items: center;
   justify-content: space-between;
 }
@@ -17,7 +21,7 @@ header {
 header nav {
   display: flex;
   flex-grow: 0.5;
-  margin: 1em;
+  margin: 1rem;
   gap: 10px;
   justify-content: flex-end;
   font-family: sans-serif;
@@ -42,25 +46,43 @@ header nav {
 
 main {
   display: flex;
-  /*background-color: aqua;*/
+  flex-grow: 1;
   margin: 1em;
   padding: 1em;
+  gap: 20px;
 }
 
-.products ul li {
-  background-color: crimson;
+#headline {
+  font-family: fantasy;
 }
 
-/*
+.products li {
+  background-color: rgb(255, 0, 234);
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
 .products {
   display: flex;
+  flex-direction: column;
   margin: 1em;
+  gap: 2rem;
   height: fit-content;
-  background-color: white;
   font-style: italic;
 }
-*/
+
+.testimonial {
+  background-color: rgb(239, 239, 239);
+}
 
 footer {
-  background-color: rgb(77, 251, 77);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(151, 255, 151);
+  font-family: fantasy;
+  font-size: 1rem;
+  width: 50%;
 }
