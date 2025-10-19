@@ -42,10 +42,24 @@ header nav {
 
 main {
   display: flex;
-  background-color: aqua;
+  /*background-color: aqua;*/
   margin: 1em;
   padding: 1em;
 }
+
+.products ul li {
+  background-color: crimson;
+}
+
+/*
+.products {
+  display: flex;
+  margin: 1em;
+  height: fit-content;
+  background-color: white;
+  font-style: italic;
+}
+*/
 
 footer {
   background-color: rgb(77, 251, 77);
